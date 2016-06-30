@@ -2,9 +2,11 @@ package com.qf.administrator.android1604;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
 
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
